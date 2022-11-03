@@ -1,0 +1,9 @@
+@layer components {
+  .tpl-image-label {
+    @apply absolute bottom-8 left-0 min-w-[300px] text-2xl font-bold h-20 px-6 bg-white flex items-center justify-between;
+
+    .tpl-button--circle {
+      @apply w-8 h-8 mx-0 ml-4;
+    }
+  }
+}

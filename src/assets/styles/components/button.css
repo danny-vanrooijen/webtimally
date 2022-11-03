@@ -1,0 +1,29 @@
+@layer components {
+  .tpl-button {
+    @apply inline-block justify-self-center sm:justify-self-start px-5 py-2.5 bg-gradient-to-br from-pink to-purple text-white rounded relative;
+
+    svg {
+      @apply ml-3.5;
+    }
+
+    &--border {
+      @apply border-gradient-br-pink-purple-black border-transparent border;
+    }
+    &--border-white {
+      @apply border-gradient-br-pink-purple-white border-transparent border;
+    }
+    &--circle {
+      @apply w-12 h-12 p-0 rounded-full flex justify-center items-center mx-auto;
+
+      &-small {
+        @apply w-7 h-7 text-xs;
+      }
+      svg {
+        @apply m-0;
+      }
+    }
+    &--text {
+      @apply bg-clip-text text-transparent p-0;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+@layer components {
+  .how-we-work {
+    input[type="radio"]:checked + div {
+      @apply block;
+    }
+  }
+}

@@ -1,0 +1,6 @@
+@layer base {
+  input[type="text"],
+  textarea {
+    @apply border-0 border-b border-white sm:border-black bg-black sm:bg-white px-0;
+  }
+}

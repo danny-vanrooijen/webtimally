@@ -1,0 +1,5 @@
+@layer components {
+  .tpl-image img {
+    @apply object-cover w-full h-full;
+  }
+}

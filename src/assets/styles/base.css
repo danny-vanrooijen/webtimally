@@ -1,0 +1,25 @@
+@tailwind base;
+
+@layer base {
+  html {
+    @apply overflow-x-hidden;
+  }
+  body {
+    @apply font-display font-medium bg-white text-grey-900 text-lg max-w-[1920px] mx-auto;
+  }
+  section {
+    @apply my-16 sm:my-32;
+  }
+  h1 {
+    @apply text-4xl sm:text-7xl font-bold text-black;
+  }
+  h2 {
+    @apply text-2xl sm:text-5xl font-bold text-black;
+  }
+  h3 {
+    @apply text-xl sm:text-2xl font-bold text-black;
+  }
+  mark {
+    @apply font-bold bg-gradient-to-br from-pink to-purple text-transparent bg-clip-text;
+  }
+}
