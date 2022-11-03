@@ -24,10 +24,12 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt
         </div>
-        <a href="#" class="tpl-button tpl-button--border"
-          >Read more<i class="fa-solid fa-arrow-right"></i
-        ></a>
+        <button-item bordered href="/read-more">Read more</button-item>
       </div>
     </div>
   </section>
 </template>
+
+<script setup>
+import ButtonItem from "@/components/core-components/button-item/ButtonItem.vue";
+</script>

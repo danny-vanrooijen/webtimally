@@ -31,10 +31,12 @@
             <span class="block">support</span>
           </div>
         </div>
-        <a href="#" class="tpl-button tpl-button--border">
-          See more<i class="fa-solid fa-arrow-right"></i>
-        </a>
+        <button-item bordered href="#">See more</button-item>
       </div>
     </div>
   </section>
 </template>
+
+<script setup>
+import ButtonItem from "@/components/core-components/button-item/ButtonItem.vue";
+</script>

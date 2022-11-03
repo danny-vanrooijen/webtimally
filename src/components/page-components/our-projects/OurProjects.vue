@@ -34,14 +34,12 @@
                 text-white text-center
               "
             >
-              <div class="flex flex-col">
+              <div class="flex flex-col items-center">
                 <span
                   >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor</span
                 >
-                <div class="tpl-button tpl-button--circle mt-6">
-                  <i class="fa-solid fa-arrow-right"></i>
-                </div>
+                <circle-cta class="mt-6" />
               </div>
             </div>
           </div>
@@ -67,14 +65,12 @@
                 text-white text-center
               "
             >
-              <div class="flex flex-col">
+              <div class="flex flex-col items-center">
                 <span
                   >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor</span
                 >
-                <div class="tpl-button tpl-button--circle mt-6">
-                  <i class="fa-solid fa-arrow-right"></i>
-                </div>
+                <circle-cta class="mt-6" />
               </div>
             </div>
           </div>
@@ -100,14 +96,12 @@
                 text-white text-center
               "
             >
-              <div class="flex flex-col">
+              <div class="flex flex-col items-center">
                 <span
                   >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor</span
                 >
-                <div class="tpl-button tpl-button--circle mt-6">
-                  <i class="fa-solid fa-arrow-right"></i>
-                </div>
+                <circle-cta class="mt-6" />
               </div>
             </div>
           </div>
@@ -170,3 +164,7 @@
     </div>
   </section>
 </template>
+
+<script setup>
+import CircleCta from "@/components/core-components/circle-cta/CircleCta.vue";
+</script>

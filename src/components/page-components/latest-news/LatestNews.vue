@@ -39,14 +39,7 @@
           </h3>
           <div class="mt-5 sm:mt-7" href="#">
             Read more
-            <span
-              class="
-                tpl-button tpl-button--circle tpl-button--circle-small
-                inline-flex
-                ml-2
-              "
-              ><i class="fa-solid fa-arrow-right"></i
-            ></span>
+            <circle-cta small />
           </div>
         </div>
       </a>
@@ -77,19 +70,16 @@
             Website development for an industrial enterprise: what is going on
             and why is it four sentences?
           </h3>
-          <div class="mt-5 sm:mt-7" href="#">
+          <div class="mt-5 sm:mt-7">
             Read more
-            <span
-              class="
-                tpl-button tpl-button--circle tpl-button--circle-small
-                inline-flex
-                ml-2
-              "
-              ><i class="fa-solid fa-arrow-right"></i
-            ></span>
+            <circle-cta small />
           </div>
         </div>
       </a>
     </div>
   </section>
 </template>
+
+<script setup>
+import CircleCta from "@/components/core-components/circle-cta/CircleCta.vue";
+</script>

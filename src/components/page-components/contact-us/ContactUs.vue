@@ -26,11 +26,15 @@
             rows="2"
             placeholder="Message"
           ></textarea>
-          <button class="col-span-2 tpl-button">
-            Send message<i class="fa-solid fa-arrow-right"></i>
-          </button>
+          <div class="col-span-2 flex justify-center">
+            <button-item button type="submit">Send message</button-item>
+          </div>
         </form>
       </div>
     </div>
   </section>
 </template>
+
+<script setup>
+import ButtonItem from "@/components/core-components/button-item/ButtonItem.vue";
+</script>
