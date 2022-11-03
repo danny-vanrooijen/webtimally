@@ -32,13 +32,6 @@
           >Call me<i class="fa-solid fa-arrow-right hidden sm:inline-block"></i
         ></a>
       </div>
-      <select
-        class="border-0 bg-transparent hidden sm:block font-medium text-lg"
-        name=""
-        id=""
-      >
-        <option value="En">En</option>
-      </select>
     </div>
   </header>
 </template>
