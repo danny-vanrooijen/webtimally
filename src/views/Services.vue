@@ -9,10 +9,10 @@
 </template>
 
 <script setup>
-import TheHeader from "/src/components/TheHeader.vue";
-import TheFooter from "/src/components/TheFooter.vue";
+import TheHeader from "../../src/components/page-components/the-header/TheHeader.vue";
+import TheFooter from "../../src/components/page-components/the-footer/TheFooter.vue";
 
-import PageIntro from "/src/components/PageIntro.vue";
-import AllServices from "/src/components/AllServices.vue";
-import ContactUs from "/src/components/ContactUs.vue";
+import PageIntro from "../../src/components/page-components/page-intro/PageIntro.vue";
+import AllServices from "../../src/components/page-components/all-services/AllServices.vue";
+import ContactUs from "../../src/components/page-components/contact-us/ContactUs.vue";
 </script>
