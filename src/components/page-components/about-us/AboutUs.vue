@@ -14,22 +14,7 @@
         <div
           class="grid grid-cols-2 sm:grid-cols-4 gap-8 text-center sm:text-left"
         >
-          <div>
-            <span class="block text-3xl"><mark>30</mark></span>
-            <span class="block">experts</span>
-          </div>
-          <div>
-            <span class="block text-3xl"><mark>15</mark></span>
-            <span class="block">managers</span>
-          </div>
-          <div>
-            <span class="block text-3xl"><mark>200</mark></span>
-            <span class="block">projects</span>
-          </div>
-          <div>
-            <span class="block text-3xl"><mark>24/7</mark></span>
-            <span class="block">support</span>
-          </div>
+          <usp-item v-for="usp in usps" :key="usp.value" :usp="usp" />
         </div>
         <button-item bordered href="#">See more</button-item>
       </div>
@@ -38,5 +23,26 @@
 </template>
 
 <script setup>
+import { ref } from "vue";
 import ButtonItem from "@/components/core-components/button-item/ButtonItem.vue";
+import UspItem from "./components/UspItem.vue";
+
+const usps = ref([
+  {
+    label: "30",
+    value: "experts",
+  },
+  {
+    label: "15",
+    value: "managers",
+  },
+  {
+    label: "200",
+    value: "projects",
+  },
+  {
+    label: "24/7",
+    value: "support",
+  },
+]);
 </script>
