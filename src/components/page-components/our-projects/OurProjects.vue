@@ -21,9 +21,7 @@
         <project-item :project="project" :index="index" />
       </template>
     </div>
-    <div class="tpl-container">
-      <div class="bg-grey-100 my-12 sm:my-16 h-0.5"></div>
-    </div>
+    <component-separator />
     <services-list />
   </section>
 </template>
@@ -31,6 +29,7 @@
 <script setup>
 import { ref } from "vue";
 import ProjectItem from "./components/ProjectItem.vue";
+import ComponentSeparator from "@/components/core-components/component-separator/ComponentSeparator.vue";
 import ServicesList from "./components/ServicesList.vue";
 import CircleCta from "@/components/core-components/circle-cta/CircleCta.vue";
 
