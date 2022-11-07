@@ -18,8 +18,8 @@
         "
       >
         <service-item
-          v-for="(service, index) in services"
-          :key="index"
+          v-for="service in services"
+          :key="service.title"
           :service="service"
         />
       </div>
