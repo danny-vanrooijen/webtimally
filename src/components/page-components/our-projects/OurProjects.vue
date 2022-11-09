@@ -11,8 +11,8 @@
           items-end
         "
       >
-        <span
-          >See all our work<i class="fa-solid fa-arrow-right ml-2.5"></i>
+        <span>
+          See all our work<i class="fa-solid fa-arrow-right ml-2.5"></i>
         </span>
       </a>
     </div>

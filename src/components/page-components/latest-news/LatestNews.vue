@@ -7,79 +7,46 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore
         </p>
-        <a class="tpl-button tpl-button--text mt-7" href="#"
-          >See all<i class="fa-solid fa-arrow-right fill-gradient-linear"></i
-        ></a>
+        <a
+          href="/news"
+          class="col-span-6 text-right sm:text-left grid items-end mt-9"
+        >
+          <span>See all<i class="fa-solid fa-arrow-right ml-2.5"></i> </span>
+        </a>
       </div>
-      <a class="col-span-12 sm:col-span-4 bg-white shadow-md" href="#">
-        <div class="tpl-image aspect-w-16 aspect-h-9">
-          <img src="http://placeimg.com/1920/800/tech" alt="" />
-          <div>
-            <div
-              class="
-                absolute
-                bottom-4
-                left-4
-                sm:left-5
-                bg-gradient-to-br
-                from-pink
-                to-purple
-                text-white
-                px-2.5
-                py-0.5
-              "
-            >
-              12 October
-            </div>
-          </div>
-        </div>
-        <div class="p-4 sm:p-5">
-          <h3 class="line-clamp-2">
-            How does web studio work and who should be part of the team
-          </h3>
-          <div class="mt-5 sm:mt-7" href="#">
-            Read more
-            <circle-cta small />
-          </div>
-        </div>
-      </a>
-      <a class="col-span-12 sm:col-span-4 bg-white shadow-md" href="#">
-        <div class="tpl-image aspect-w-16 aspect-h-9">
-          <img src="http://placeimg.com/1920/800/nature" alt="" />
-          <div>
-            <div
-              class="
-                absolute
-                bottom-4
-                left-4
-                sm:left-5
-                bg-gradient-to-br
-                from-pink
-                to-purple
-                text-white
-                px-2.5
-                py-0.5
-              "
-            >
-              10 October
-            </div>
-          </div>
-        </div>
-        <div class="p-4 sm:p-5">
-          <h3 class="line-clamp-2">
-            Website development for an industrial enterprise: what is going on
-            and why is it four sentences?
-          </h3>
-          <div class="mt-5 sm:mt-7">
-            Read more
-            <circle-cta small />
-          </div>
-        </div>
-      </a>
+      <news-item
+        v-for="(news, index) in newsItems"
+        :key="index"
+        :news-item="news"
+      />
     </div>
   </section>
 </template>
 
 <script setup>
-import CircleCta from "@/components/core-components/circle-cta/CircleCta.vue";
+import NewsItem from "./components/NewsItem.vue";
+
+const newsItems = [
+  {
+    href: "#",
+    image: {
+      src: "http://placeimg.com/1920/800/tech",
+      alt: "An alt text",
+    },
+    date: "12 October",
+    title: "How does web studio work and who should be part of the team",
+    button: "Read more",
+  },
+  {
+    href: "#",
+    image: {
+      src: "http://placeimg.com/1920/800/nature",
+      alt: "Another alt text",
+    },
+    date: "10 October",
+    title:
+      "Website development for an industrial enterprise: what is going on and why is it four sentences?",
+    button: "Read more",
+  },
+];
 </script>
