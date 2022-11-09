@@ -1,14 +1,14 @@
 <template>
-  <the-header></the-header>
+  <the-header />
   <main>
-    <the-hero></the-hero>
-    <our-projects></our-projects>
-    <about-us></about-us>
-    <our-experts></our-experts>
-    <contact-us></contact-us>
-    <latest-news></latest-news>
+    <the-hero />
+    <our-projects />
+    <about-us />
+    <our-experts />
+    <contact-us />
+    <latest-news />
   </main>
-  <the-footer></the-footer>
+  <the-footer />
 </template>
 
 <script setup>

@@ -1,13 +1,13 @@
 <template>
-  <the-header></the-header>
+  <the-header />
   <main>
-    <page-intro></page-intro>
-    <about-us></about-us>
-    <our-services></our-services>
-    <how-we-work></how-we-work>
-    <our-experts></our-experts>
+    <page-intro />
+    <about-us />
+    <our-services />
+    <how-we-work />
+    <our-experts />
   </main>
-  <the-footer></the-footer>
+  <the-footer />
 </template>
 
 <script setup>

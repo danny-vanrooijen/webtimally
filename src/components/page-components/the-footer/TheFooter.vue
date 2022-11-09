@@ -1,14 +1,18 @@
 <template>
   <footer class="tpl-container py-0">
-    <div class="tpl-grid border-t-2 border-grey-100 py-8 text-center sm:text-left">
-      <div class="
+    <div
+      class="tpl-grid border-t-2 border-grey-100 py-8 text-center sm:text-left"
+    >
+      <div
+        class="
           col-span-12
           sm:col-span-6 sm:col-start-6
           gap-12
           flex flex-col
           sm:flex-row
           justify-end
-        ">
+        "
+      >
         <div class="min-w-[126px]">
           <div class="font-bold text-2xl mb-4">Links</div>
           <nav>
@@ -25,17 +29,20 @@
           <div class="font-bold text-2xl mb-4">Contact</div>
           <div class="tpl-menu">
             <ul class="tpl-menu">
-              <li>
-                <a href="#">Lindeskovvej 7<br />4330 Hvalsø</a>
-              </li>
+              <li>Lindeskovvej 7<br />4330 Hvalsø</li>
               <li><a href="tel:+4524522110">+45 24 52 21 10</a></li>
-              <li><a href="mailto:danny@webtimally.com">danny@webtimally.com</a></li>
+              <li>
+                <a href="mailto:danny@webtimally.com">danny@webtimally.com</a>
+              </li>
             </ul>
           </div>
         </div>
       </div>
-      <div class="col-span-12 sm:col-span-3 sm:order-first mt-12 sm:m-0 text-left">
-        <div class="
+      <div
+        class="col-span-12 sm:col-span-3 sm:order-first mt-12 sm:m-0 text-left"
+      >
+        <div
+          class="
             font-bold
             text-4xl
             bg-gradient-to-br
@@ -44,7 +51,8 @@
             text-transparent
             bg-clip-text
             mb-16
-          ">
+          "
+        >
           Webtimally
         </div>
       </div>

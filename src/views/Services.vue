@@ -1,11 +1,11 @@
 <template>
-  <the-header></the-header>
+  <the-header />
   <main>
-    <page-intro></page-intro>
-    <all-services></all-services>
-    <contact-us></contact-us>
+    <page-intro />
+    <all-services />
+    <contact-us />
   </main>
-  <the-footer></the-footer>
+  <the-footer />
 </template>
 
 <script setup>
