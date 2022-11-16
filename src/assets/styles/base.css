@@ -5,7 +5,7 @@
     @apply overflow-x-hidden;
   }
   body {
-    @apply mx-auto max-w-[1920px] bg-white font-display text-lg font-medium text-grey-900;
+    @apply mx-auto bg-white font-display text-lg font-medium text-grey-900;
   }
   section {
     @apply my-16 sm:my-32;
