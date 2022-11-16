@@ -1,5 +1,2 @@
 @layer base {
-  a {
-    @apply hover:underline;
-  }
 }

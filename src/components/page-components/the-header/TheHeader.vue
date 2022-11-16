@@ -17,14 +17,11 @@
       </nav>
     </div>
     <div class="w-48 flex justify-end gap-10">
-      <div>
-        <a
-          class="tpl-button"
-          href="tel:+4524522110"
-        >
-          Call us<i class="fa-solid fa-arrow-right hidden sm:inline-block"></i>
-        </a>
-      </div>
+      <button-item href="tel:+24522110">Call us</button-item>
     </div>
   </header>
 </template>
+
+<script setup>
+import ButtonItem from '@/components/core-components/button-item/ButtonItem.vue';
+</script>

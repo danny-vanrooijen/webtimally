@@ -9,17 +9,21 @@
   },
   "dependencies": {
     "vue": "^3.2.41",
-    "vue-router": "^4.0.14"
+    "vue-router": "^4.1.6"
   },
   "devDependencies": {
-    "@tailwindcss/aspect-ratio": "^0.4.0",
-    "@tailwindcss/forms": "^0.5.0",
-    "@tailwindcss/line-clamp": "^0.3.1",
-    "@tailwindcss/typography": "^0.5.2",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "@tailwindcss/typography": "^0.5.7",
     "@vitejs/plugin-vue": "^3.2.0",
-    "autoprefixer": "^10.4.4",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.26.0",
+    "eslint-plugin-vue": "^9.7.0",
+    "postcss": "^8.4.18",
+    "postcss-import": "^15.0.0",
     "prettier-plugin-tailwindcss": "^0.1.8",
-    "tailwindcss": "^3.0.23",
+    "tailwindcss": "^3.2.1",
     "tailwindcss-border-gradient-radius": "^3.0.1",
     "vite": "^3.2.0"
   }

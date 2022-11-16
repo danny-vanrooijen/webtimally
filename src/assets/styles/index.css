@@ -3,7 +3,6 @@
 @import "components.css";
 @import "utilities.css";
 
-@import "./components/button.css";
 @import "./components/image.css";
 @import "./components/forms.css";
 @import "./components/typography.css";
