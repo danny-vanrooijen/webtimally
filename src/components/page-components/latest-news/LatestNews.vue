@@ -7,12 +7,9 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore
         </p>
-        <a
-          href="/news"
-          class="col-span-6 text-right sm:text-left grid items-end mt-9"
-        >
-          <span>See all<i class="fa-solid fa-arrow-right ml-2.5"></i> </span>
-        </a>
+        <button-item href="/news" text>
+          <span>See all</span>
+        </button-item>
       </div>
       <news-item
         v-for="(news, index) in newsItems"
@@ -25,6 +22,7 @@
 
 <script setup>
 import NewsItem from "./components/NewsItem.vue";
+import ButtonItem from "@/components/core-components/button-item/ButtonItem.vue";
 
 const newsItems = [
   {
