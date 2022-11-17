@@ -1,30 +1,29 @@
 <template>
   <section class="relative m-0">
-    <div class="tpl-image h-[375px] sm:h-[800px] brightness-50">
-      <img src="http://placeimg.com/1920/800/nature" alt="" />
+    <div class="tpl-image h-[375px] brightness-50 sm:h-[800px]">
+      <img
+        src="/src/assets/images/hero.jpg"
+        alt=""
+      />
     </div>
     <div
-      class="
-        absolute
-        top-0
-        left-0
-        w-full
-        h-full
-        flex
-        items-center
-        justify-center
-        text-white text-center
-      "
+      class="absolute top-0 left-0 flex h-full w-full items-center justify-center text-center text-white"
     >
-      <div class="tpl-container sm:w-2/3 justify-center">
-        <h1 class="text-white mb-8">
-          We will implement any task for your project
+      <div class="tpl-container justify-center sm:w-2/3">
+        <h1 class="mb-8 text-white">
+          We are <mark>passionate</mark> about building high quality web
+          solutions
         </h1>
-        <div class="sm:px-44 mb-10 sm:mb-16">
+        <!-- <div class="mb-10 sm:mb-16 sm:px-44">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt
-        </div>
-        <button-item bordered href="/read-more">Read more</button-item>
+        </div> -->
+        <!-- <button-item
+          bordered
+          href="/read-more"
+        >
+          Read more
+        </button-item> -->
       </div>
     </div>
   </section>
