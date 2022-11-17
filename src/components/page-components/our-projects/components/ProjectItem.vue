@@ -1,6 +1,6 @@
 <template>
   <div
-    class="col-span-12 md:col-span-4"
+    class="col-span-12 sm:col-span-6 md:col-span-4"
     :class="{ 'md:-translate-y-24': index % 3 === 1 }"
   >
     <a :href="href">
@@ -16,7 +16,10 @@
         >
           <div class="flex flex-col items-center">
             <span>{{ description }}</span>
-            <circle-cta class="mt-6" />
+            <circle-cta
+              v-if="href"
+              class="mt-6"
+            />
           </div>
         </div>
       </div>
@@ -27,6 +30,7 @@
 
 <script setup>
 import { computed } from "vue";
+import CircleCta from "@/components/core-components/circle-cta/CircleCta.vue";
 
 const props = defineProps({
   project: {

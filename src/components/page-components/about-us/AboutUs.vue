@@ -15,7 +15,7 @@
           projects and we are proud of it!
         </h2>
         <div
-          class="grid grid-cols-2 gap-8 text-center md:grid-cols-4 md:text-left"
+          class="grid grid-cols-2 gap-8 text-center sm:grid-cols-4 md:text-left"
         >
           <usp-item
             v-for="usp in usps"

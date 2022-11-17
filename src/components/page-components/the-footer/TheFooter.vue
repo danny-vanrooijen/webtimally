@@ -4,7 +4,7 @@
       class="tpl-grid border-t-2 border-grey-100 py-8 text-center md:text-left"
     >
       <div
-        class="col-span-12 flex flex-col justify-end gap-12 md:col-span-6 md:col-start-6 md:flex-row"
+        class="col-span-12 flex flex-col justify-center gap-12 sm:flex-row md:col-span-6 md:col-start-6 md:justify-end"
       >
         <div class="min-w-[126px]">
           <div class="mb-4 text-2xl font-bold">Links</div>
@@ -32,10 +32,10 @@
         </div>
       </div>
       <div
-        class="col-span-12 mt-12 text-left md:order-first md:col-span-3 md:m-0"
+        class="col-span-12 mt-8 text-center md:order-first md:col-span-3 md:m-0 md:text-left"
       >
         <div
-          class="mb-16 bg-gradient-to-br from-pink to-purple bg-clip-text text-4xl font-bold text-transparent"
+          class="mb-8 bg-gradient-to-br from-pink to-purple bg-clip-text text-2xl font-bold text-transparent md:mb-16 md:text-4xl"
         >
           Webtimally
         </div>

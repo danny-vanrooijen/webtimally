@@ -2,10 +2,10 @@
 
 @layer components {
   .tpl-container {
-    @apply container;
+    @apply container sm:px-8 md:px-4;
   }
   .tpl-grid {
-    @apply grid grid-cols-12 gap-4 gap-y-8 md:gap-9;
+    @apply grid grid-cols-12 gap-4 gap-y-8 sm:gap-9;
   }
   .tpl-menu {
     @apply grid gap-y-3;

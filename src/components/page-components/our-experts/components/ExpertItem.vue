@@ -1,7 +1,7 @@
 <template>
   <a
     :href="href"
-    class="col-span-12 bg-black text-white md:col-span-3"
+    class="col-span-12 bg-black text-white sm:col-span-6 md:col-span-3"
   >
     <div class="tpl-image aspect-w-1 aspect-h-1">
       <div>

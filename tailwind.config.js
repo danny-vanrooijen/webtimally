@@ -16,7 +16,7 @@ module.exports = {
       }),
       screens: {
         lg: "1320px",
-        mobile: { max: "768px" },
+        mobile: { max: "639px" },
       },
     },
     container: {
