@@ -3,23 +3,16 @@
     class="col-span-12 sm:col-span-4"
     :class="{ 'sm:-translate-y-24': index % 3 === 1 }"
   >
-    <a href="">
+    <a :href="href">
       <div class="tpl-image aspect-w-1 aspect-h-1">
         <div class="brightness-50">
-          <img src="http://placeimg.com/1920/800/nature" alt="" />
+          <img
+            :src="image.src"
+            :alt="image.alt"
+          />
         </div>
         <div
-          class="
-            absolute
-            top-0
-            left-0
-            right-0
-            bottom-0
-            grid
-            items-center
-            p-12
-            text-white text-center
-          "
+          class="absolute top-0 left-0 right-0 bottom-0 grid items-center p-12 text-center text-white"
         >
           <div class="flex flex-col items-center">
             <span>{{ description }}</span>
@@ -48,6 +41,6 @@ const props = defineProps({
 
 const title = computed(() => props.project.title);
 const description = computed(() => props.project.description);
-const href = computed(() => props.href);
-const image = computed(() => props.image);
+const href = computed(() => props.project.href);
+const image = computed(() => props.project.image);
 </script>

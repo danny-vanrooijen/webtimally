@@ -2,23 +2,24 @@
   <section>
     <div class="tpl-container tpl-grid mb-8">
       <h2 class="col-span-6 sm:col-span-4">Our work</h2>
-      <a
-        class="
-          col-span-6
-          sm:col-span-4 sm:col-start-9
-          text-right
-          grid
-          items-end
-        "
+      <!-- <a
+        href="/our-work"
+        class="col-span-6 grid items-end text-right sm:col-span-4 sm:col-start-9"
       >
         <span>
           See all our work<i class="fa-solid fa-arrow-right ml-2.5"></i>
         </span>
-      </a>
+      </a> -->
     </div>
     <div class="tpl-container tpl-grid">
-      <template v-for="(project, index) in projects" :key="project.title">
-        <project-item :project="project" :index="index" />
+      <template
+        v-for="(project, index) in projects"
+        :key="project.title"
+      >
+        <project-item
+          :project="project"
+          :index="index"
+        />
       </template>
     </div>
     <component-separator />
@@ -35,33 +36,30 @@ import CircleCta from "@/components/core-components/circle-cta/CircleCta.vue";
 
 const projects = ref([
   {
-    title: "Online store",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lobortis aliquet mi, vulputate tincidunt nunc dapibus vitae.",
-    href: "",
+    title: "Veterinary clinic Dyrlæge på bryggertorvet",
+    description: "A highly personalised and easy-to-use wordpress website",
+    href: null,
     image: {
-      src: "",
-      alt: "",
+      src: "/src/assets/images/cat-in-clinic.jpg",
+      alt: "Cat in clinic",
     },
   },
   {
-    title: "Landing page",
-    description:
-      "Curabitur dapibus sem purus, nec mattis nibh vestibulum at. Aenean condimentum pellentesque tempor.",
-    href: "",
+    title: "Nord Space ApS",
+    description: "Wordpress website maintenance",
+    href: null,
     image: {
-      src: "",
-      alt: "",
+      src: "/src/assets/images/telescope-on-mountain.jpg",
+      alt: "Telescope on mountain",
     },
   },
   {
-    title: "Corporate website",
-    description:
-      "Morbi a tempor mauris, non dictum urna. Curabitur ac dignissim turpis, sed ultrices arcu. Etiam a tortor nisl.",
-    href: "",
+    title: "DTU (Technical University of Denmark)",
+    description: "Wordpress website maintenance",
+    href: null,
     image: {
-      src: "",
-      alt: "",
+      src: "/src/assets/images/open-book-on-table.jpg",
+      alt: "University book on table",
     },
   },
 ]);

@@ -29,27 +29,24 @@ import ServiceItemSmall from "./ServiceItemSmall.vue";
 
 const services = ref([
   {
-    icon: "ICON",
-    title: "Web Design",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu smod tempor",
+    icon: "fa-light fa-display-code",
+    title: "Web development",
+    description: "Using the latest technologies to build high quality websites",
   },
   {
-    icon: "ICON",
-    title: "Web Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    icon: "fa-light fa-gauge-max",
+    title: "Web performance",
+    description: "We are experts in optimising for Google's Core Web Vitals",
   },
   {
-    icon: "ICON",
-    title: "SEO & Marketing",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu smod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu smod tempor",
+    icon: "fa-brands fa-wordpress-simple",
+    title: "Wordpress",
+    description: "Development or maintenance of your Wordpress website",
   },
   {
-    icon: "ICON",
-    title: "Brand Creation",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu smod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    icon: "fa-light fa-wand-magic-sparkles",
+    title: "Prototypes",
+    description: "Creating beautiful responsive websites from your design",
   },
 ]);
 </script>
