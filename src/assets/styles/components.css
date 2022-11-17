@@ -5,7 +5,7 @@
     @apply container;
   }
   .tpl-grid {
-    @apply grid grid-cols-12 gap-4 gap-y-8 sm:gap-9;
+    @apply grid grid-cols-12 gap-4 gap-y-8 md:gap-9;
   }
   .tpl-menu {
     @apply grid gap-y-3;
@@ -16,6 +16,6 @@
   }
   .tpl-quote-icon {
     background-image: url(../images/quote.svg);
-    @apply w-[63px] h-[39px];
+    @apply h-[39px] w-[63px];
   }
 }

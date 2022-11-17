@@ -8,7 +8,7 @@
     >
       Webtimally
     </a>
-    <div class="hidden sm:block">
+    <div class="hidden md:block">
       <nav>
         <ul class="flex gap-12">
           <li><a href="about">About us</a></li>

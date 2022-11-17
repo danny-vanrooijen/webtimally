@@ -1,5 +1,5 @@
 <template>
   <div class="tpl-container">
-    <div class="bg-grey-100 my-12 sm:my-16 h-0.5"></div>
+    <div class="my-12 h-0.5 bg-grey-100 md:my-16"></div>
   </div>
 </template>

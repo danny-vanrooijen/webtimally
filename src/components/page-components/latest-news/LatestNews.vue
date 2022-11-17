@@ -1,13 +1,16 @@
 <template>
   <section>
     <div class="tpl-container tpl-grid">
-      <div class="col-span-12 sm:col-span-4">
+      <div class="col-span-12 md:col-span-4">
         <h2 class="mb-6">Want to keep abreast of the latest news</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore
         </p>
-        <button-item href="/news" text>
+        <button-item
+          href="/news"
+          text
+        >
           <span>See all</span>
         </button-item>
       </div>

@@ -1,17 +1,17 @@
 <template>
   <div class="tpl-container tpl-grid gap-5 gap-y-8">
-    <div class="tpl-grid col-span-full sm:col-span-2 sm:flex sm:flex-col">
+    <div class="tpl-grid col-span-full md:col-span-2 md:flex md:flex-col">
       <h2 class="col-span-6">Our services</h2>
       <a
         href="/services"
-        class="col-span-6 grid items-end text-right sm:text-left"
+        class="col-span-6 grid items-end text-right md:text-left"
       >
         <span>See all<i class="fa-solid fa-arrow-right ml-2.5"></i> </span>
       </a>
     </div>
-    <div class="col-span-full sm:col-span-10 sm:ml-px sm:overflow-hidden">
+    <div class="col-span-full md:col-span-10 md:ml-px md:overflow-hidden">
       <div
-        class="grid grid-cols-4 gap-4 gap-y-8 sm:-mr-4 sm:-ml-px sm:gap-x-0 sm:divide-x sm:divide-grey-900/20"
+        class="grid grid-cols-4 gap-4 gap-y-8 md:-mr-4 md:-ml-px md:gap-x-0 md:divide-x md:divide-grey-900/20"
       >
         <service-item-small
           v-for="service in services"

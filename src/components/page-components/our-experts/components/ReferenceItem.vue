@@ -1,12 +1,12 @@
 <template>
   <div
-    class="w-[90%] snap-start flex-none"
-    :class="[index === 0 ? 'sm:w-[45%]' : 'sm:w-1/2']"
+    class="w-[90%] flex-none snap-start"
+    :class="[index === 0 ? 'md:w-[45%]' : 'md:w-1/2']"
   >
     <p>
       {{ referenceText }}
     </p>
-    <div class="mt-5 w-2/3 relative">
+    <div class="relative mt-5 w-2/3">
       <div class="font-bold">{{ author }}</div>
       <div>{{ title }}</div>
       <div

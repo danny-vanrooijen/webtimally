@@ -1,6 +1,6 @@
 <template>
   <div class="tpl-container tpl-grid">
-    <div class="col-span-6 sm:col-span-3"><h2>Our experts</h2></div>
+    <div class="col-span-6 md:col-span-3"><h2>Our experts</h2></div>
   </div>
   <div class="tpl-container tpl-grid mt-10">
     <expert-item

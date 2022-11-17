@@ -1,9 +1,9 @@
 <template>
   <section class="relative py-20">
-    <div class="absolute bg-black w-full sm:w-1/2 left-0 top-0 h-full"></div>
+    <div class="absolute left-0 top-0 h-full w-full bg-black md:w-1/2"></div>
     <div class="tpl-container tpl-grid relative z-10">
-      <div class="col-span-12 sm:col-span-4 sm:col-start-2 text-white">
-        <h2 class="text-white mb-6">
+      <div class="col-span-12 text-white md:col-span-4 md:col-start-2">
+        <h2 class="mb-6 text-white">
           Do you want to discuss your future project?
         </h2>
         <p>
@@ -12,12 +12,31 @@
           minim veniam
         </p>
       </div>
-      <div class="col-span-12 sm:col-span-6 sm:col-start-7">
-        <form class="tpl-grid grid-cols-2" action="#">
-          <input type="text" placeholder="Name" required />
-          <input type="text" placeholder="Email" required />
-          <input type="text" placeholder="Phone" required />
-          <input type="text" placeholder="Theme" required />
+      <div class="col-span-12 md:col-span-6 md:col-start-7">
+        <form
+          class="tpl-grid grid-cols-2"
+          action="#"
+        >
+          <input
+            type="text"
+            placeholder="Name"
+            required
+          />
+          <input
+            type="text"
+            placeholder="Email"
+            required
+          />
+          <input
+            type="text"
+            placeholder="Phone"
+            required
+          />
+          <input
+            type="text"
+            placeholder="Theme"
+            required
+          />
           <textarea
             class="col-span-2"
             name=""
@@ -27,7 +46,11 @@
             placeholder="Message"
           ></textarea>
           <div class="col-span-2 flex justify-center">
-            <button-item button type="submit">Send message</button-item>
+            <button-item
+              button
+              type="submit"
+              >Send message</button-item
+            >
           </div>
         </form>
       </div>

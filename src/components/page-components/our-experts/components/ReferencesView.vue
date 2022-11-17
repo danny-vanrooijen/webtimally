@@ -1,20 +1,11 @@
 <template>
   <div class="tpl-container tpl-grid">
-    <div class="col-span-full sm:col-span-3 tpl-grid sm:flex sm:flex-col">
+    <div class="tpl-grid col-span-full md:col-span-3 md:flex md:flex-col">
       <h2 class="col-span-9">Here's what they say about our work</h2>
     </div>
-    <div class="col-span-full sm:col-span-9">
+    <div class="col-span-full md:col-span-9">
       <div
-        class="
-          relative
-          w-full
-          flex
-          gap-x-5
-          sm:gap-x-9
-          snap-x snap-mandatory
-          overflow-x-auto
-          sm:overflow-x-hidden
-        "
+        class="relative flex w-full snap-x snap-mandatory gap-x-5 overflow-x-auto md:gap-x-9 md:overflow-x-hidden"
       >
         <reference-item
           v-for="(reference, index) in references"

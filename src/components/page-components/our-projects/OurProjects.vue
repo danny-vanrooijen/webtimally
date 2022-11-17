@@ -1,10 +1,10 @@
 <template>
   <section>
     <div class="tpl-container tpl-grid mb-8">
-      <h2 class="col-span-6 sm:col-span-4">Our work</h2>
+      <h2 class="col-span-6 md:col-span-4">Our work</h2>
       <!-- <a
         href="/our-work"
-        class="col-span-6 grid items-end text-right sm:col-span-4 sm:col-start-9"
+        class="col-span-6 grid items-end text-right md:col-span-4 md:col-start-9"
       >
         <span>
           See all our work<i class="fa-solid fa-arrow-right ml-2.5"></i>

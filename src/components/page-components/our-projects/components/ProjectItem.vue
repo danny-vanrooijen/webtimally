@@ -1,7 +1,7 @@
 <template>
   <div
-    class="col-span-12 sm:col-span-4"
-    :class="{ 'sm:-translate-y-24': index % 3 === 1 }"
+    class="col-span-12 md:col-span-4"
+    :class="{ 'md:-translate-y-24': index % 3 === 1 }"
   >
     <a :href="href">
       <div class="tpl-image aspect-w-1 aspect-h-1">
@@ -20,7 +20,7 @@
           </div>
         </div>
       </div>
-      <div class="mt-1 sm:mt-2.5">{{ title }}</div>
+      <div class="mt-1 md:mt-2.5">{{ title }}</div>
     </a>
   </div>
 </template>

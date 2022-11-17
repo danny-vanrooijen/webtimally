@@ -1,12 +1,18 @@
 <template>
-  <a :href="href" class="col-span-12 sm:col-span-3 bg-black text-white">
+  <a
+    :href="href"
+    class="col-span-12 bg-black text-white md:col-span-3"
+  >
     <div class="tpl-image aspect-w-1 aspect-h-1">
       <div>
-        <img :src="image.src" :alt="image.alt" />
+        <img
+          :src="image.src"
+          :alt="image.alt"
+        />
       </div>
     </div>
-    <div class="text-center p-3">
-      <h3 class="text-white text-xl">{{ name }}</h3>
+    <div class="p-3 text-center">
+      <h3 class="text-xl text-white">{{ name }}</h3>
       <div>{{ occupation }}</div>
     </div>
   </a>
