@@ -1,28 +1,21 @@
 <template>
-  <section class="how-we-work bg-black text-white py-20">
+  <section class="how-we-work bg-black py-20 text-white">
     <div class="tpl-container tpl-grid mb-12">
       <div class="col-span-9">
         <h2 class="text-white">How we are working</h2>
       </div>
     </div>
-    <div class="tpl-container tpl-grid sm:divide-x divide-grey-900">
-      <div class="col-span-12 sm:col-span-6 sm:mr-5">
+    <div class="tpl-container tpl-grid divide-grey-900 md:divide-x">
+      <div class="col-span-12 md:col-span-6 md:mr-5">
         <ul class="grid gap-6">
           <li>
-            <label for="how-we-work-1" class="flex items-center cursor-pointer">
-              <div class="w-12 sm:w-20 shrink-0">
+            <label
+              for="how-we-work-1"
+              class="flex cursor-pointer items-center"
+            >
+              <div class="w-12 shrink-0 md:w-20">
                 <div
-                  class="
-                    w-10
-                    h-10
-                    sm:w-16 sm:h-16
-                    rounded-full
-                    grid
-                    place-items-center
-                    text-xl
-                    sm:text-2xl
-                    p-0
-                  "
+                  class="grid h-10 w-10 place-items-center rounded-full p-0 text-xl md:h-16 md:w-16 md:text-2xl"
                 >
                   <mark>01</mark>
                 </div>
@@ -30,14 +23,7 @@
               <div class="pl-2">
                 <h3 class="text-white">Product research</h3>
                 <p
-                  class="
-                    line-clamp-1
-                    bg-gradient-to-br
-                    from-white
-                    to-black
-                    text-transparent
-                    bg-clip-text
-                  "
+                  class="bg-gradient-to-br from-white to-black bg-clip-text text-transparent line-clamp-1"
                 >
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa
                 </p>
@@ -45,22 +31,13 @@
             >
           </li>
           <li>
-            <label for="how-we-work-2" class="flex items-center cursor-pointer">
-              <div class="w-12 sm:w-20 shrink-0">
+            <label
+              for="how-we-work-2"
+              class="flex cursor-pointer items-center"
+            >
+              <div class="w-12 shrink-0 md:w-20">
                 <div
-                  class="
-                    w-10
-                    h-10
-                    sm:w-16 sm:h-16
-                    rounded-full
-                    grid
-                    place-items-center
-                    text-xl
-                    sm:text-2xl
-                    tpl-button tpl-button--border
-                    border-2
-                    p-0
-                  "
+                  class="tpl-button tpl-button--border grid h-10 w-10 place-items-center rounded-full border-2 p-0 text-xl md:h-16 md:w-16 md:text-2xl"
                 >
                   <mark>02</mark>
                 </div>
@@ -68,14 +45,7 @@
               <div class="pl-2">
                 <h3 class="text-white">Agreement</h3>
                 <p
-                  class="
-                    line-clamp-1
-                    bg-gradient-to-br
-                    from-white
-                    to-black
-                    text-transparent
-                    bg-clip-text
-                  "
+                  class="bg-gradient-to-br from-white to-black bg-clip-text text-transparent line-clamp-1"
                 >
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa
                 </p>
@@ -83,20 +53,10 @@
             >
           </li>
           <li>
-            <label class="flex items-center cursor-pointer">
-              <div class="w-12 sm:w-20 shrink-0">
+            <label class="flex cursor-pointer items-center">
+              <div class="w-12 shrink-0 md:w-20">
                 <div
-                  class="
-                    w-10
-                    h-10
-                    sm:w-16 sm:h-16
-                    rounded-full
-                    grid
-                    place-items-center
-                    text-xl
-                    sm:text-2xl
-                    p-0
-                  "
+                  class="grid h-10 w-10 place-items-center rounded-full p-0 text-xl md:h-16 md:w-16 md:text-2xl"
                 >
                   <mark>03</mark>
                 </div>
@@ -104,14 +64,7 @@
               <div class="pl-2">
                 <h3 class="text-white">Conditions</h3>
                 <p
-                  class="
-                    line-clamp-1
-                    bg-gradient-to-br
-                    from-white
-                    to-black
-                    text-transparent
-                    bg-clip-text
-                  "
+                  class="bg-gradient-to-br from-white to-black bg-clip-text text-transparent line-clamp-1"
                 >
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa
                 </p>
@@ -120,7 +73,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-span-12 sm:col-span-6 sm:-ml-5 sm:pl-10">
+      <div class="col-span-12 md:col-span-6 md:-ml-5 md:pl-10">
         <input
           id="how-we-work-1"
           name="how-we-work"
@@ -130,10 +83,13 @@
         />
         <div class="hidden">
           <div class="tpl-image aspect-w-16 aspect-h-6">
-            <img src="http://placeimg.com/1920/800/nature" alt="" />
+            <img
+              src="http://placeimg.com/1920/800/nature"
+              alt=""
+            />
           </div>
-          <div class="prose text-white text-lg mt-6">
-            <h3 class="text-white text-2xl">Product research</h3>
+          <div class="prose mt-6 text-lg text-white">
+            <h3 class="text-2xl text-white">Product research</h3>
             <p>
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt mollit anim.
@@ -154,10 +110,13 @@
         />
         <div class="hidden">
           <div class="tpl-image aspect-w-16 aspect-h-6">
-            <img src="http://placeimg.com/1920/800/tech" alt="" />
+            <img
+              src="http://placeimg.com/1920/800/tech"
+              alt=""
+            />
           </div>
-          <div class="prose text-white text-lg mt-6">
-            <h3 class="text-white text-2xl">Agreement</h3>
+          <div class="prose mt-6 text-lg text-white">
+            <h3 class="text-2xl text-white">Agreement</h3>
             <p>
               Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur. Ut enim ad minim veniam,

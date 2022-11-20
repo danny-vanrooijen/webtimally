@@ -1,31 +1,29 @@
 <template>
-  <a class="col-span-12 sm:col-span-4 bg-white shadow-md" :href="href">
+  <a
+    class="col-span-12 bg-white shadow-md md:col-span-4"
+    :href="href"
+  >
     <div class="tpl-image aspect-w-16 aspect-h-9">
-      <img :src="image.src" :alt="image.alt" />
+      <img
+        :src="image.src"
+        :alt="image.alt"
+      />
       <div>
         <div
-          class="
-            absolute
-            bottom-4
-            left-4
-            sm:left-5
-            bg-gradient-to-br
-            from-pink
-            to-purple
-            text-white
-            px-2.5
-            py-0.5
-          "
+          class="absolute bottom-4 left-4 bg-gradient-to-br from-pink to-purple px-2.5 py-0.5 text-white md:left-5"
         >
           {{ date }}
         </div>
       </div>
     </div>
-    <div class="p-4 sm:p-5">
+    <div class="p-4 md:p-5">
       <h3 class="line-clamp-2">
         {{ title }}
       </h3>
-      <div class="mt-5 sm:mt-7" href="#">
+      <div
+        class="mt-5 md:mt-7"
+        href="#"
+      >
         {{ button }}
         <circle-cta small />
       </div>

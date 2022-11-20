@@ -14,11 +14,10 @@ module.exports = {
         },
         background: theme("colors"),
       }),
-    },
-    screens: {
-      sm: "768px",
-      md: "1320px",
-      mobile: { max: "768px" },
+      screens: {
+        lg: "1320px",
+        mobile: { max: "639px" },
+      },
     },
     container: {
       center: true,

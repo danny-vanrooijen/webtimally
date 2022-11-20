@@ -6,7 +6,7 @@
   >
     <slot />
     <i
-      class="hidden sm:inline-block"
+      class="hidden md:inline-block"
       :class="buttonIconClasses"
     ></i>
   </button>
@@ -52,7 +52,7 @@ const props = defineProps({
 
 const buttonClasses = computed(() => {
   return [
-    "relative inline-flex h-12 items-center justify-self-center rounded bg-gradient-to-br from-pink to-purple text-white sm:justify-self-start",
+    "relative inline-flex h-12 items-center justify-self-center rounded bg-gradient-to-br from-pink to-purple text-white md:justify-self-start",
     {
       "border border-transparent border-gradient-br-pink-purple-black":
         props.bordered,

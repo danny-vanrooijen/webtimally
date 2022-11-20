@@ -1,20 +1,13 @@
 <template>
   <footer class="tpl-container py-0">
     <div
-      class="tpl-grid border-t-2 border-grey-100 py-8 text-center sm:text-left"
+      class="tpl-grid border-t-2 border-grey-100 py-8 text-center md:text-left"
     >
       <div
-        class="
-          col-span-12
-          sm:col-span-6 sm:col-start-6
-          gap-12
-          flex flex-col
-          sm:flex-row
-          justify-end
-        "
+        class="col-span-12 flex flex-col justify-center gap-12 sm:flex-row md:col-span-6 md:col-start-6 md:justify-end"
       >
         <div class="min-w-[126px]">
-          <div class="font-bold text-2xl mb-4">Links</div>
+          <div class="mb-4 text-2xl font-bold">Links</div>
           <nav>
             <ul class="tpl-menu">
               <li><a href="#">Home</a></li>
@@ -25,8 +18,8 @@
             </ul>
           </nav>
         </div>
-        <div class="sm:max-w-[226px]">
-          <div class="font-bold text-2xl mb-4">Contact</div>
+        <div class="md:max-w-[226px]">
+          <div class="mb-4 text-2xl font-bold">Contact</div>
           <div class="tpl-menu">
             <ul class="tpl-menu">
               <li>Lindeskovvej 7<br />4330 Hvalsø</li>
@@ -39,27 +32,18 @@
         </div>
       </div>
       <div
-        class="col-span-12 sm:col-span-3 sm:order-first mt-12 sm:m-0 text-left"
+        class="col-span-12 mt-8 text-center md:order-first md:col-span-3 md:m-0 md:text-left"
       >
         <div
-          class="
-            font-bold
-            text-4xl
-            bg-gradient-to-br
-            from-pink
-            to-purple
-            text-transparent
-            bg-clip-text
-            mb-16
-          "
+          class="mb-8 bg-gradient-to-br from-pink to-purple bg-clip-text text-2xl font-bold text-transparent md:mb-16 md:text-4xl"
         >
           Webtimally
         </div>
       </div>
     </div>
   </footer>
-  <div class="bg-black text-white font-normal text-base">
-    <div class="tpl-container py-0 flex justify-between h-20 items-center">
+  <div class="bg-black text-base font-normal text-white">
+    <div class="tpl-container flex h-20 items-center justify-between py-0">
       <div>Webtimally &copy; 2021 - present</div>
     </div>
   </div>
