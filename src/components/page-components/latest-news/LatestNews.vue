@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section name="latest-news">
     <div class="tpl-container tpl-grid">
       <div class="col-span-12 md:col-span-4">
         <h2 class="mb-6">Want to keep abreast of the latest news</h2>

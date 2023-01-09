@@ -1,6 +1,6 @@
 <template>
   <div class="tpl-container tpl-grid mb-8">
-    <h2 class="col-span-6 md:col-span-4">Our work</h2>
+    <h2 class="col-span-6 md:col-span-4">Our latest work</h2>
     <!-- <a
         href="/our-work"
         class="col-span-6 grid items-end text-right md:col-span-4 md:col-start-9"

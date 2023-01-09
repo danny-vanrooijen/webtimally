@@ -8,7 +8,7 @@
     >
       Webtimally
     </a>
-    <div class="hidden md:block">
+    <!-- <div class="hidden md:block">
       <nav>
         <ul class="flex gap-12">
           <li><a href="about">About us</a></li>
@@ -16,9 +16,9 @@
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
-    </div>
+    </div> -->
     <div class="flex w-48 justify-end gap-10">
-      <button-item href="tel:+24522110">Call us</button-item>
+      <button-item href="mailto:danny@webtimally.com">Email us</button-item>
     </div>
   </header>
 </template>

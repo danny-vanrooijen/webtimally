@@ -1,5 +1,8 @@
 <template>
-  <section class="relative py-20">
+  <section
+    name="contact-us"
+    class="relative py-20"
+  >
     <div class="absolute left-0 top-0 h-full w-full bg-black md:w-1/2"></div>
     <div class="tpl-container tpl-grid relative z-10">
       <div class="col-span-12 text-white md:col-span-4 md:col-start-2">

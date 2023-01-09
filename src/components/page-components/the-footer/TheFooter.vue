@@ -6,7 +6,7 @@
       <div
         class="col-span-12 flex flex-col justify-center gap-12 sm:flex-row md:col-span-6 md:col-start-6 md:justify-end"
       >
-        <div class="min-w-[126px]">
+        <!-- <div class="min-w-[126px]">
           <div class="mb-4 text-2xl font-bold">Links</div>
           <nav>
             <ul class="tpl-menu">
@@ -17,13 +17,13 @@
               <li><a href="#">Contact</a></li>
             </ul>
           </nav>
-        </div>
+        </div> -->
         <div class="md:max-w-[226px]">
           <div class="mb-4 text-2xl font-bold">Contact</div>
           <div class="tpl-menu">
             <ul class="tpl-menu">
-              <li>Lindeskovvej 7<br />4330 Hvalsø</li>
-              <li><a href="tel:+4524522110">+45 24 52 21 10</a></li>
+              <!-- <li>Lindeskovvej 7<br />4330 Hvalsø</li> -->
+              <!-- <li><a href="tel:+4524522110">+45 24 52 21 10</a></li> -->
               <li>
                 <a href="mailto:danny@webtimally.com">danny@webtimally.com</a>
               </li>

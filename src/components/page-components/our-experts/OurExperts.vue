@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section name="our-experts">
     <references-view />
     <component-separator />
     <experts-view />
