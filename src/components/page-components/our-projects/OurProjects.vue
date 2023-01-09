@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section name="projects-and-services">
     <projects-list />
     <component-separator />
     <services-list />

@@ -4,9 +4,9 @@
     <the-hero />
     <our-projects />
     <about-us />
-    <our-experts />
-    <contact-us />
-    <latest-news />
+    <!-- <our-experts /> -->
+    <!-- <contact-us /> -->
+    <!-- <latest-news /> -->
   </main>
   <the-footer />
 </template>

@@ -1,5 +1,8 @@
 <template>
-  <section class="relative m-0">
+  <section
+    name="hero"
+    class="relative m-0"
+  >
     <div class="tpl-image h-[375px] brightness-50 md:h-[800px]">
       <img
         src="/src/assets/images/hero.jpg"
